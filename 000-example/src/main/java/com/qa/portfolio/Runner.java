@@ -3,10 +3,10 @@ package com.qa.portfolio;
 public class Runner {
 	
 	/**
-	 * Method greets each person and returns the string
+	 * Given a name, returns "Hi" plus the name <br>
 	 * 
 	 * @param name of the person being greeted
-	 * @return A greeting to each name
+	 * @return A greeting for the name entered
 	 */
 	public String greetingExample(String name) {
 		return "Hi " + name;

@@ -4,9 +4,15 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class RunnerTest {
+/**
+ * Test file for Example Class.
+ * 
+ * Run this file to see if it passes
+ * 
+ */
+public class ExampleTest {
 
-	private Runner answers = new Runner();
+	private Example answers = new Example();
 	
 	@Test
 	public void greetingJohnTest() {

@@ -1,6 +1,12 @@
 package com.qa.portfolio;
 
-public class Runner {
+/**
+ * THIS ONE HAS BEEN DONE FOR YOU
+ * 
+ * To test the solution open up the ExampleTest class in src/test/java/com/qa/portfolio and run
+ * 
+ */
+public class Example {
 	
 	/**
 	 * Given a name, returns "Hi" plus the name <br>

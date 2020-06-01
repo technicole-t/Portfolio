@@ -12,7 +12,15 @@ public class EvenlySpaced {
 	 * @return boolean value for if the 3 values entered are evenly spaced
 	 */
 	public boolean evenlySpaced(int num1, int num2, int num3) {
+		
+		int betweenOneAndTwo = num2 - num1; 
+		int betweenTwoAndThree = num3 - num2; 
+		
+		if (betweenOneAndTwo == betweenTwoAndThree) {
+			return true;
+		} else {
+			return false;
+		}
 		//TODO
-		return false;
 	}
 }

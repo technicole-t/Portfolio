@@ -11,8 +11,15 @@ public class MultiChar {
 	 * @return triplicates of each letter from the input
 	 */
 	public String multiChar(String input) {
-		// TODO
-		return "";
+		
+		String sentence = new String(); 
+		
+		for (int i = 0; i < input.length(); i++) {
+			for (int x = 0; x < 3; x++) {
+				sentence = sentence + input.charAt(i);
+			}
+		}
+		return sentence;
 	}
 
 }
